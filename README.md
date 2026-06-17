@@ -1,4 +1,3 @@
-```markdown
 <p align="center">
   <img src="logo.png" alt="Logo" width="150">
 </p>
@@ -15,12 +14,11 @@ A simple, menu-driven network reconnaissance CLI tool written in Python. It work
 
 - **Scan WiFi Networks** - Lists nearby WiFi networks with SSID, BSSID, signal strength, channel, and authentication type.
 - **Current WiFi Connection Info** - Displays details about the currently active WiFi connection.
-- **Scan Local Network Devices** - Discovers your local IP and subnet, then pings all hosts on the `/24` range in parallel to find active devices, resolving their MAC addresses and hostnames.
-  - **Export to JSON** - Save scan results to a `.json` file for documentation.
+- **Scan Local Network Devices** - Discovers your local IP and subnet, then pings all hosts on the `/24` range in parallel to find active devices, resolving their MAC addresses and hostnames. Results can optionally be exported to a JSON file.
 - **Port Scan** - Scans a target IP against a list of common ports (FTP, SSH, Telnet, SMTP, DNS, HTTP, POP3, IMAP, HTTPS, SMB, MySQL, and common HTTP alt ports) and grabs a basic banner if available.
-- **DNS Lookup** - Resolves a domain name to its IP address.
-- **HTTP Header Sniffer** - Retrieves HTTP headers from a web server to identify technologies and server versions.
 - **Full Scan** - Runs all of the above in sequence.
+- **DNS Lookup** - Resolves a domain name to its IP address.
+- **HTTP Header Sniffer** - Connects to a target on port 80 and displays the raw HTTP response headers.
 
 ## Requirements
 
@@ -69,8 +67,8 @@ MENU
 3. Scan Local Network Devices (Export Enabled)
 4. Port Scan
 5. Full Scan
-6. DNS Lookup (New)
-7. HTTP Header Sniffer (New)
+6. DNS Lookup
+7. HTTP Header Sniffer
 0. Exit
 ```
 
@@ -86,4 +84,3 @@ Select an option by entering its number.
 
 **AvreyDev**
 GitHub: [CryXcvv](https://github.com/CryXcvv)
-```
