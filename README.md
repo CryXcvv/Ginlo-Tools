@@ -54,7 +54,7 @@ Clone the repository and run the script directly:
 
 ```bash
 git clone https://github.com/CryXcvv/your-repo-name.git
-cd your-repo-name
+cd Ginlo-Tools
 python start.py
 ```
 
