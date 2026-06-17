@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Logo" width="150">
+  <img src="logo.png" alt="Logo" width="150">
 </p>
 
 <h1 align="center">Network Recon Toolkit</h1>
 
 <p align="center">
-  <img src="assets/banner.png" alt="Ginlo Flow Banner" width="100%">
+  <img src="banner.png" alt="Ginlo Flow Banner" width="100%">
 </p>
 
 A simple, menu-driven network reconnaissance CLI tool written in Python. It works across Windows, Linux, and Termux (Android), with colored terminal output for readability.
