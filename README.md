@@ -78,7 +78,3 @@ Select an option by entering its number.
 
 **AvreyDev**
 GitHub: [CryXcvv](https://github.com/CryXcvv)
-
-## License
-
-Specify your license here (e.g. MIT, GPL-3.0).
