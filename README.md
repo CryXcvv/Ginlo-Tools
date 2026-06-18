@@ -111,7 +111,7 @@ You will also need to grant location permission to Termux for WiFi scanning to w
 Clone the repository and run the script:
 
 ```bash
-git clone https://github.com/CryXcvv/your-repo-name.git
+git clone https://github.com/CryXcvv/Ginlo-Tools.git
 cd Ginlo-Tools
 python src/start.py
 ```
